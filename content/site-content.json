@@ -1,0 +1,346 @@
+{
+  "source_url": "https://www.shaheedpramod.org/",
+  "captured_at": "2026-11-11T07:09:00+05:30",
+  "meta": {
+    "title": "SHAHEED PRAMOD Group of Education",
+    "language": "en",
+    "hosting": "Vercel",
+    "last_modified_header": "Tue, 10 Nov 2026 13:26:55 GMT"
+  },
+  "announcement_marquee": "पैसा नही बनेगा आपके पढ़ाई में बाधा - Bihar Student Credit Card. • Admissions Open 2026 – Apply Now Today • Limited Seats Available for B.Ed & Nursing • Scholarship Opportunities for Meritorious Students • Visit Campus for Free Career Counseling •",
+  "navigation": {
+    "brand_title": "SHAHEED PRAMOD",
+    "brand_subtitle": "Group of Education",
+    "logo": {
+      "alt": "SHAHEED PRAMOD Group of Education Logo",
+      "source_url": "https://i.ibb.co/7tLhYn0B/photo-6266973922368622069-y.jpg",
+      "local_path": "images/logo/shaheed-pramod-logo.jpg"
+    },
+    "links": [
+      { "label": "Home", "href": "#home" },
+      { "label": "Institutions", "href": "#institutions" },
+      { "label": "Courses", "href": "#courses" },
+      { "label": "About", "href": "#about" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "cta": { "label": "Apply Now", "target": "#admission" }
+  },
+  "hero": {
+    "badge": "AICTE / NCTE Approved",
+    "heading": "SHAHEED PRAMOD Group of Education",
+    "slide_interval_ms": 3000,
+    "slides": [
+      {
+        "title": "B.Ed Courses",
+        "subtitle": "Shape the Minds of Tomorrow",
+        "source_url": "https://i.imageupload.app/f8b89fff171fefabefd4.jpeg",
+        "local_path": "images/hero/hero-01-bed-courses.jpeg"
+      },
+      {
+        "title": "Nursing Courses",
+        "subtitle": "Compassion Meets Professionalism",
+        "source_url": "https://i.imageupload.app/6df61b3de596a6205061.jpeg",
+        "local_path": "images/hero/hero-02-nursing-courses.jpeg"
+      },
+      {
+        "title": "BBA/BCA Courses",
+        "subtitle": "Innovate and Lead in the Digital Age",
+        "source_url": "https://i.imageupload.app/b71a5ee9b79f53ae0443.jpeg",
+        "local_path": "images/hero/hero-03-bba-bca-courses.jpeg"
+      }
+    ],
+    "actions": [
+      { "label": "Apply Now", "target": "#admission" },
+      { "label": "Explore all Courses", "target": "#courses" },
+      { "label": "Free Career Counseling", "target": "#contact" }
+    ]
+  },
+  "institutions": {
+    "heading": "Our Institutions",
+    "subtitle": "A multi-college integrated platform dedicated to excellence in various professional fields.",
+    "items": [
+      {
+        "name": "SHAHEED PRAMOD B.Ed College",
+        "badge": "NCTE Approved",
+        "description": "Excellence in Teacher Education. NCTE Approved.",
+        "link": "https://shaheedpramod.in",
+        "source_url": "https://i.ibb.co/wFjMW67p/photo-6266973922368622074-y.jpg",
+        "local_path": "images/institutions/01-shaheed-pramod-bed-college.jpg"
+      },
+      {
+        "name": "SHAHEED PRAMOD Higher Education",
+        "badge": "UGC Recognized",
+        "description": "Quality BBA, BCA, and BLIS programs for modern careers.",
+        "link": "https://shaheedpramod.in",
+        "source_url": "https://i.ibb.co/JWybS3Yk/photo-6266973922368622077-y.jpg",
+        "local_path": "images/institutions/02-shaheed-pramod-higher-education.jpg"
+      },
+      {
+        "name": "SHAHEED PRAMOD Nursing Institute",
+        "badge": "INC Approved",
+        "description": "Compassionate care, professional training. ANM, GNM, B.Sc Nursing.",
+        "link": "https://spnursing.in",
+        "source_url": "https://i.ibb.co/BKPB5fSv/photo-6266973922368622073-y.jpg",
+        "local_path": "images/institutions/03-shaheed-pramod-nursing-institute.jpg"
+      }
+    ]
+  },
+  "academic_programs": {
+    "heading": "Academic Programs",
+    "subtitle": "Explore our wide range of professional courses designed to build successful careers.",
+    "courses": [
+      {
+        "title": "B.Ed",
+        "category": "Education",
+        "duration": "2 Years",
+        "eligibility": "Graduation with 50%",
+        "scope": "Secondary School Teacher",
+        "source_url": "https://i.ibb.co/yncYLZ4L/photo-6278394468041953204-y.jpg",
+        "local_path": "images/courses/01-bed.jpg"
+      },
+      {
+        "title": "D.El.Ed",
+        "category": "Education",
+        "duration": "2 Years",
+        "eligibility": "10+2 with 50%",
+        "scope": "Primary School Teacher",
+        "source_url": "https://i.ibb.co/fdBVvJZ0/photo-6273812502441300493-x-1.jpg",
+        "local_path": "images/courses/02-deled.jpg"
+      },
+      {
+        "title": "B.Sc Nursing",
+        "category": "Nursing",
+        "duration": "4 Years",
+        "eligibility": "10+2 PCB with 45%",
+        "scope": "Registered Nurse, Healthcare",
+        "source_url": "https://i.ibb.co/yFpdHwT6/photo-6278394468041953205-y.jpg",
+        "local_path": "images/courses/03-bsc-nursing.jpg"
+      },
+      {
+        "title": "BCA",
+        "category": "Higher Education",
+        "duration": "3 Years",
+        "eligibility": "10+2 with Math/CS",
+        "scope": "Software Developer, IT Sector",
+        "source_url": "https://i.ibb.co/YFRSv3sg/photo-6273812502441300440-x.jpg",
+        "local_path": "images/courses/04-bca.jpg"
+      },
+      {
+        "title": "BBA",
+        "category": "Higher Education",
+        "duration": "3 Years",
+        "eligibility": "10+2 Any Stream",
+        "scope": "Management, HR, Marketing",
+        "source_url": "https://i.ibb.co/C5w6PQQy/photo-6273812502441300439-x.jpg",
+        "local_path": "images/courses/05-bba.jpg"
+      },
+      {
+        "title": "GNM",
+        "category": "Nursing",
+        "duration": "3 Years",
+        "eligibility": "10+2 Any Stream",
+        "scope": "Staff Nurse, Clinical Care",
+        "source_url": "https://i.ibb.co/V0t65Y1L/photo-6273812502441300438-x.jpg",
+        "local_path": "images/courses/06-gnm.jpg"
+      },
+      {
+        "title": "ANM",
+        "category": "Nursing",
+        "duration": "2 Years",
+        "eligibility": "10+2 Any Stream",
+        "scope": "Female Health Worker",
+        "source_url": "https://i.ibb.co/dJVrg6kD/photo-6273812502441300437-x.jpg",
+        "local_path": "images/courses/07-anm.jpg"
+      },
+      {
+        "title": "B.Lis",
+        "category": "Higher Education",
+        "duration": "1 Year",
+        "eligibility": "Graduation (Any Stream)",
+        "scope": "Librarian, Information Officer",
+        "source_url": "https://i.ibb.co/ccbNVbrs/photo-6273812502441300441-x.jpg",
+        "local_path": "images/courses/08-blis.jpg"
+      }
+    ]
+  },
+  "director_message": {
+    "section_label": "Message from the Director",
+    "heading": "Empowering Future Through Quality Education",
+    "director_name": "Shyam Nandan Yadav",
+    "director_title": "Director, SHAHEED PRAMOD Group of Education",
+    "photo": {
+      "source_url": "https://i.ibb.co/2Y35bC0v/photo-6253643297364577727-y.jpg",
+      "local_path": "images/director/shyam-nandan-yadav.jpg"
+    },
+    "paragraphs": [
+      "\"Under the visionary leadership of Shri Shyam Nandan Yadav, we are committed to delivering quality education, discipline, and career-focused learning.\"",
+      "Our mission is to bridge the gap between academic learning and industry requirements. We believe in nurturing not just professionals, but responsible citizens who can contribute meaningfully to society."
+    ],
+    "stats": [
+      { "value": "15+", "label": "Years Excellence" },
+      { "value": "5000+", "label": "Students Trained" }
+    ]
+  },
+  "mission_and_vision": {
+    "mission": {
+      "heading": "Our Mission",
+      "text": "“To provide quality, affordable and skill-based education to every student, ensuring they are ready for the challenges of the modern world.”"
+    },
+    "vision": {
+      "heading": "Our Vision",
+      "text": "“To become a leading educational hub in Bihar, recognized for academic excellence, innovation, and holistic development of students.”"
+    }
+  },
+  "facilities": {
+    "heading": "World-Class Facilities",
+    "items": [
+      {
+        "name": "Smart Classrooms",
+        "source_url": "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&q=80",
+        "local_path": "images/facilities/01-smart-classrooms.jpg"
+      },
+      {
+        "name": "Computer Labs",
+        "source_url": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&q=80",
+        "local_path": "images/facilities/02-computer-labs.jpg"
+      },
+      {
+        "name": "Library",
+        "source_url": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&q=80",
+        "local_path": "images/facilities/03-library.jpg"
+      },
+      {
+        "name": "Practical Labs",
+        "source_url": "https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&q=80",
+        "local_path": "images/facilities/04-practical-labs.jpg"
+      },
+      {
+        "name": "Hostel",
+        "source_url": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&q=80",
+        "local_path": "images/facilities/05-hostel.jpg"
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "Student Testimonials",
+    "items": [
+      {
+        "name": "Priya Sharma",
+        "course": "B.Ed",
+        "rating": 5,
+        "review": "The faculty here is exceptional. They focus on practical teaching skills that really prepared me for my career.",
+        "source_url": "https://i.pravatar.cc/150?u=priya",
+        "local_path": "images/testimonials/01-priya-sharma.jpg"
+      },
+      {
+        "name": "Manoj Kumar",
+        "course": "BCA",
+        "rating": 5,
+        "review": "Modern labs and industry-aligned curriculum. I got placed in a top IT firm right after my final semester.",
+        "source_url": "https://i.pravatar.cc/150?u=manoj",
+        "local_path": "images/testimonials/02-manoj-kumar.jpg"
+      },
+      {
+        "name": "Poonam Kumari",
+        "course": "GNM",
+        "rating": 5,
+        "review": "The clinical exposure at SHAHEED PRAMOD Nursing Institute is unmatched. We get hands-on training with real patients.",
+        "source_url": "https://i.pravatar.cc/150?u=poonam",
+        "local_path": "images/testimonials/03-poonam-kumari.jpg"
+      },
+      {
+        "name": "Uday Kumar",
+        "course": "B.Sc Nursing",
+        "rating": 5,
+        "review": "The clinical training and hospital exposure are outstanding. The faculty ensures we are ready for real-life medical situations. I'm proud to be a part of this institute.",
+        "source_url": "https://i.ibb.co/yBFwtpdf/photo-6278394468041953214-y.jpg",
+        "local_path": "images/testimonials/04-uday-kumar.jpg"
+      }
+    ]
+  },
+  "admission": {
+    "heading": "Start Your Journey Today",
+    "description": "Fill out the form to get a call back from our expert career counselors. We'll help you choose the right path for your future.",
+    "form_title": "Student Registration",
+    "contact_phones": ["8877612728", "0621 2273439"],
+    "contact_email": "shaheedpramodb.ed@gmail.com",
+    "submission_target": "https://wa.me/918877612728",
+    "background_image_ref": "input_file_11.png",
+    "fields": [
+      { "name": "Full Name", "type": "text", "required": true },
+      { "name": "Phone Number", "type": "text", "required": true },
+      { "name": "Email Address", "type": "email", "required": true },
+      { "name": "Date of Birth", "type": "date", "required": true },
+      { "name": "Gender", "type": "select", "options": ["Male", "Female", "Other"] },
+      { "name": "Select Course", "type": "select", "options": ["B.Ed", "D.El.Ed", "B.Sc Nursing", "GNM", "ANM", "BCA", "BBA"] },
+      { "name": "10th (%)", "type": "text", "required": true },
+      { "name": "12th (%)", "type": "text", "required": true },
+      { "name": "Graduation (%)", "type": "text", "required": false },
+      { "name": "Upload Passport Photo", "type": "file", "accept": "image/*" },
+      { "name": "Permanent Address", "type": "textarea", "required": true }
+    ]
+  },
+  "gallery": {
+    "heading": "Campus Gallery",
+    "images": [
+      { "index": 0, "alt": "Gallery 0", "source_url": "https://i.ibb.co/RXxQ0mX/photo-6278394468041953224-y.jpg", "local_path": "images/gallery/gallery-01.jpg" },
+      { "index": 1, "alt": "Gallery 1", "source_url": "https://i.ibb.co/0phddZzH/photo-6278394468041953223-y.jpg", "local_path": "images/gallery/gallery-02.jpg" },
+      { "index": 2, "alt": "Gallery 2", "source_url": "https://i.ibb.co/3929192n/photo-6278394468041953222-y.jpg", "local_path": "images/gallery/gallery-03.jpg" },
+      { "index": 3, "alt": "Gallery 3", "source_url": "https://i.ibb.co/FLvFpFLF/photo-6278394468041953221-y.jpg", "local_path": "images/gallery/gallery-04.jpg" },
+      { "index": 4, "alt": "Gallery 4", "source_url": "https://i.ibb.co/5h6RqMwb/photo-6278394468041953219-x.jpg", "local_path": "images/gallery/gallery-05.jpg" },
+      { "index": 5, "alt": "Gallery 5", "source_url": "https://i.ibb.co/RTP53HVV/photo-6278394468041953218-x.jpg", "local_path": "images/gallery/gallery-06.jpg" },
+      { "index": 6, "alt": "Gallery 6", "source_url": "https://i.ibb.co/jFY5jQm/photo-6278394468041953217-x.jpg", "local_path": "images/gallery/gallery-07.jpg" },
+      { "index": 7, "alt": "Gallery 7", "source_url": "https://i.ibb.co/4nWJDCp4/photo-6266973922368622073-y.jpg", "local_path": "images/gallery/gallery-08.jpg" },
+      { "index": 8, "alt": "Gallery 8", "source_url": "https://i.ibb.co/VYPZ31Bg/photo-6253643297364577725-y.jpg", "local_path": "images/gallery/gallery-09.jpg" },
+      { "index": 9, "alt": "Gallery 9", "source_url": "https://i.ibb.co/S4rRwsBJ/photo-6253643297364577722-y.jpg", "local_path": "images/gallery/gallery-10.jpg" }
+    ]
+  },
+  "contact": {
+    "heading": "Get In Touch",
+    "address": "Susta Madhopur, Muzaffarpur, Bihar - 842002",
+    "phones": ["0621 2273439", "8877612728", "8969094175"],
+    "email": "shaheedpramodb.ed@gmail.com",
+    "map_embed_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.428581005128!2d85.384298!3d26.080355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed112233445566%3A0x1122334455667788!2sSusta%20Madhopur%2C%20Muzaffarpur%2C%20Bihar!5e0!3m2!1sen!2sin!4v1712710000000!5m2!1sen!2sin",
+    "coordinates": { "lat": 26.080355, "lng": 85.384298 }
+  },
+  "footer": {
+    "tagline": "Empowering the next generation of professionals through quality education, modern facilities, and expert guidance.",
+    "accreditation_badges": [
+      {
+        "alt": "NCTE",
+        "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/NCTE_logo.png/220px-NCTE_logo.png",
+        "local_path": "images/badges/ncte-logo.png"
+      },
+      {
+        "alt": "INC",
+        "source_url": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Indian_Nursing_Council_logo.png/220px-Indian_Nursing_Council_logo.png",
+        "local_path": "images/badges/inc-logo.png"
+      }
+    ],
+    "social_links": {
+      "facebook": "https://www.facebook.com/share/1BQadJ64X2/",
+      "instagram": "https://www.instagram.com/shaheedpramodhighereducation?igsh=MXZzYWhlMmh2Zmg3MQ==",
+      "youtube": "https://youtube.com/@shahidpramodgroupofeducation?si=_NuRHU1CCGUr0fMN"
+    },
+    "quick_links": ["Home", "About Us", "Institutions", "Academic Courses", "Admission", "Gallery", "Contact"],
+    "college_links": [
+      { "name": "SHAHEED PRAMOD B.Ed College", "href": "https://shaheedpramod.in" },
+      { "name": "SHAHEED PRAMOD Higher Education", "href": "https://shaheedpramod.in" },
+      { "name": "SHAHEED PRAMOD Nursing Institute", "href": "https://spnursing.in" }
+    ],
+    "newsletter": {
+      "heading": "Newsletter",
+      "description": "Subscribe to get latest updates on admissions and events."
+    },
+    "copyright": "© 2026 SHAHEED PRAMOD Group of Education. All Rights Reserved. | Designed for Excellence"
+  },
+  "floating_actions": {
+    "contacts": [
+      { "name": "B.Ed College", "phone": "+918877612728", "whatsapp": "https://wa.me/918877612728" },
+      { "name": "Higher Education", "phone": "+919955657050", "whatsapp": "https://wa.me/919955657050" },
+      { "name": "Nursing Institute", "phone": "+916202792816", "whatsapp": "https://wa.me/916202792816" }
+    ]
+  }
+}
+

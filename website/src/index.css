@@ -1,0 +1,207 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Geist Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("/fonts/geist-latin-wght-normal-Dm3htQBi.woff2") format("woff2-variations");
+}
+
+:root {
+  --sp-primary: #8b1538;
+  --sp-deep: #0b1a3a;
+  --sp-hero-via: #561233;
+  --sp-accent: #f59e0b;
+  --sp-accent-soft: #fef3c7;
+  --sp-accent-ink: #0b1a3a;
+  --sp-gold-text: #b45309;
+  --sp-surface: #faf8f6;
+}
+
+@theme inline {
+  --color-brand: var(--sp-primary);
+  --color-brand-deep: var(--sp-deep);
+  --color-brand-via: var(--sp-hero-via);
+  --color-accent: var(--sp-accent);
+  --color-accent-soft: var(--sp-accent-soft);
+  --color-accent-ink: var(--sp-accent-ink);
+  --color-gold-text: var(--sp-gold-text);
+  --color-surface: var(--sp-surface);
+  --font-sans: "Inter", "Geist Variable", system-ui, -apple-system, sans-serif;
+  --font-display: "Outfit", "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  html,
+  body {
+    overflow-x: clip;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    background-color: var(--sp-surface);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+}
+
+/* Seamless Marquee Keyframes */
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  animation: marqueeScroll 34s linear infinite;
+}
+
+.marquee-wrapper:hover .marquee-track,
+.marquee-wrapper:focus-within .marquee-track {
+  animation-play-state: paused;
+}
+
+/* Gallery Marquee */
+.marquee-track-gallery {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  animation: marqueeScroll 42s linear infinite;
+}
+
+.marquee-wrapper:hover .marquee-track-gallery,
+.marquee-wrapper:focus-within .marquee-track-gallery {
+  animation-play-state: paused;
+}
+
+/* Subtle Ken Burns Slow Zoom for Hero Slides */
+@keyframes kenBurnsZoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.07);
+  }
+}
+
+.animate-ken-burns {
+  animation: kenBurnsZoom 9s ease-out forwards;
+}
+
+/* Staggered Text / Content Entrance */
+@keyframes heroFadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-hero-up {
+  animation: heroFadeUp 0.65s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.animate-hero-up-delay-1 {
+  animation: heroFadeUp 0.65s cubic-bezier(0.22, 1, 0.36, 1) 0.1s both;
+}
+
+.animate-hero-up-delay-2 {
+  animation: heroFadeUp 0.65s cubic-bezier(0.22, 1, 0.36, 1) 0.2s both;
+}
+
+/* Modal / Popover Smooth Entrance */
+@keyframes modalScaleIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.95) translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.animate-modal-in {
+  animation: modalScaleIn 0.25s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Soft Content Cross-Fade (Tabs / Facilities Switch) */
+@keyframes contentFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-content-in {
+  animation: contentFadeIn 0.38s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Subtle Floating Badge Pulse */
+@keyframes floatY {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-float-subtle {
+  animation: floatY 3.5s ease-in-out infinite;
+}
+
+/* Clean custom horizontal scrollbar for horizontal rails */
+.horizontal-rail {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(139, 21, 56, 0.28) transparent;
+}
+
+.horizontal-rail::-webkit-scrollbar {
+  height: 6px;
+}
+
+.horizontal-rail::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.horizontal-rail::-webkit-scrollbar-thumb {
+  background-color: rgba(139, 21, 56, 0.22);
+  border-radius: 9999px;
+}
+
+.horizontal-rail::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(139, 21, 56, 0.45);
+}
+
+/* Accessibility: honor reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track,
+  .marquee-track-gallery,
+  .animate-ken-burns,
+  .animate-hero-up,
+  .animate-hero-up-delay-1,
+  .animate-hero-up-delay-2,
+  .animate-modal-in,
+  .animate-content-in,
+  .animate-float-subtle {
+    animation: none !important;
+  }
+}

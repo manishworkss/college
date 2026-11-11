@@ -1,0 +1,18 @@
+# OS & Editor
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Dependencies
+node_modules/
+
+# Build Outputs
+dist/
+*.tsbuildinfo
+*.log
+
+# Environment Variables
+.env
+.env.*
+!.env.example
